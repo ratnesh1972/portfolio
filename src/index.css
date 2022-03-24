@@ -10,13 +10,13 @@
 }
 
 .gradient-text2{
-    background-image: linear-gradient(90deg,#fb7185 20%,#881337 80%);
+    background-image: linear-gradient(90deg,#f56772,#ba6bff);
     background-clip : text;
     color: transparent;
 }
 
 .gradient-text3{
-    background-image: linear-gradient(90deg,#5a9ad3 20%,#bc70ff 80%);
+    background-image: linear-gradient( 45deg, #20bdff, #a5fecb );
     background-clip : text;
     color: transparent;
 }
@@ -25,4 +25,16 @@
     background-image: linear-gradient(90deg,#5a9ad3 20%,#bc70ff 80%);
     background-clip : text;
     color: transparent;
+}
+
+.gradient-button{
+    background: linear-gradient(90deg,#5a9ad3 20%,#bc70ff 80%);
+}
+
+.gradient-button2{
+    background: linear-gradient(90deg,#f56772,#ba6bff);
+}
+
+.gradient-button3{
+    background: linear-gradient( 45deg, #20bdff, #a5fecb );
 }

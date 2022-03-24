@@ -3,7 +3,7 @@ import skills from '../../assets/images/skills2.png';
 //Skills is a component which contains skills card and png.
 const Skills = () => {
     return (
-        <section className="container mx-auto py-40">
+        <section className="container mx-auto py-20">
             {/* Heading and subheading of our section */}
             <div className="prose lg:prose-xl text-center m-auto mb-5">
                 <h3 className="gradient-text">My Development Skills</h3>
@@ -14,7 +14,7 @@ const Skills = () => {
                 {/* Content */}
                 <div className="prose items-center ">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cumque animi itaque perferendis commodi. Doloribus!</p>
-                    <div className="grid grid-cols-2 gap-5 mt-5 prose">
+                    <div className="grid grid-cols-2 gap-5 mt-5">
                         <div className="bg-gray-100 px-4 rounded-2xl">
                             <h4><span className="text-blue-600"><i class="fa-brands fa-react fa-lg" ></i></span> Frontend Development</h4>
                             <p className="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis id ipsa eum neque minus dolorem numquam eius maxime doloribus vitae!</p>
