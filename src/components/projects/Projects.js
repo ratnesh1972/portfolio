@@ -1,8 +1,8 @@
-import skills from '../../assets/images/skills2.png';
 import kiranscreation from '../../assets/images/kiranscreation.png';
 import tgfdashboard from '../../assets/images/tgfdashboard.png';
 import yelpcamp from '../../assets/images/yelpcamp.png';
-//Skills is a component which contains skills card and png.
+
+//Projects is a component which contains best projects info.
 const Projects = () => {
     return (
         <section className="container mx-auto py-20">
@@ -15,7 +15,7 @@ const Projects = () => {
             <div className="grid grid-cols-3 gap-5 mt-20">
                 {/* Content */}
                 <div className="bg-gray-100 px-4 rounded-2xl">
-                    <div className="prose my-5">
+                    <div className="prose my-4">
                         <img className="rounded-xl m-0 p-0" src={kiranscreation} alt="Kirans Creations Page" />
                         <div>
                             <h3>Kirans Creations</h3>
@@ -26,7 +26,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="bg-gray-100 px-4 rounded-2xl">
-                    <div className="prose my-5">
+                    <div className="prose my-4">
                         <img className="rounded-xl m-0 p-0" src={tgfdashboard} alt="TGF Dashboard Page" />
                         <div>
                             <h3>TGF Dashboard</h3>
@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="bg-gray-100 px-4 rounded-2xl">
-                    <div className="prose my-5">
+                    <div className="prose my-4">
                         <img className="rounded-xl m-0 p-0" src={yelpcamp} alt="YelpCamp Page" />
                         <div>
                             <h3>YelpCamp</h3>
