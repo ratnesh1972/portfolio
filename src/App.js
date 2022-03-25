@@ -2,6 +2,7 @@
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Experience from './components/experience/Experience';
+import Connect from './components/connect/Connect';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
+      <Connect />
     </div>
   );
 }
