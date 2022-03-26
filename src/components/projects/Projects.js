@@ -5,14 +5,14 @@ import yelpcamp from '../../assets/images/yelpcamp.png';
 //Projects is a component which contains best projects info.
 const Projects = () => {
     return (
-        <section className="container mx-auto py-20">
+        <section className="container mx-auto py-20 px-5 lg:px-0">
             {/* Heading and subheading of our section */}
             <div className="prose lg:prose-xl text-center m-auto mb-5">
                 <h3 className="gradient-text2">My Projects</h3>
                 <h1>A selection of my best projects.</h1>
             </div>
             {/* Divide content and img into two columns */}
-            <div className="grid grid-cols-3 gap-5 mt-20">
+            <div className="grid grid-cols-1 gap-5 mt-20 lg:grid-cols-3">
                 {/* Content */}
                 <div className="bg-gray-100 px-4 rounded-2xl">
                     <div className="prose my-4">

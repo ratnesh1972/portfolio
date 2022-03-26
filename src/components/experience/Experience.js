@@ -3,16 +3,16 @@ import experience from '../../assets/images/experience.png';
 //Experience is a component which contains my past experience in terms of work and png.
 const Experience = () => {
     return (
-        <section className="container mx-auto py-20">
+        <section className="container mx-auto py-20 px-5 lg:px-0">
             {/* Heading and subheading of our section */}
             <div className="prose lg:prose-xl text-center m-auto mb-5">
                 <h3 className="gradient-text3">My Experience</h3>
                 <h1>The most creative intuitive workmate.</h1>
             </div>
             {/* Divide content and img into two columns */}
-            <div className="grid grid-cols-2 gap-5 mt-20">
+            <div className="grid grid-cols-1 gap-5 mt-20 lg:grid-cols-2">
                 {/* Image */}
-                <div className="pr-40 flex items-center">
+                <div className="pr-20 flex items-center lg:pr-40">
                     <img src={experience} alt="Skills" />
                 </div>
                 {/* Content */}

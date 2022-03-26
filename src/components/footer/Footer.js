@@ -2,10 +2,10 @@
 const Footer = () => {
     return (
         <section className="bg-slate-100 py-20">
-            <div className="container mx-auto">
-                <div className="flex flex-row gap-5 items-center justify-between">
+            <div className="container mx-auto px-5 lg:px-0">
+                <div className="flex flex-col gap-5 items-center lg:flex-row lg:justify-between">
                     <h4 className="text-lg font-semibold">&#60; Ratnesh Patil /&#62;</h4>
-                    <div className="flex flex-row gap-5">
+                    <div className="flex flex-col gap-5 lg:flex-row items-center">
                         <span className="text-sm"><i class="fa-solid fa-envelope-open-text"></i> ratneshdesigns@gmail.com</span>
                         <span className="text-sm"><i class="fa-solid fa-mobile"></i> +91 775-890-5725</span>
                     </div>
