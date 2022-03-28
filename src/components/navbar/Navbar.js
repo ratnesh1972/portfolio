@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 
-//Connect is a component which contains links for social sites and github.
 const Navbar = () => {
+    //state to decide if we should show navbar or hide on smaller screens depending on menu button click.
     const [show, setshow] = useState(false);
 
+    //to toggle the show state.
     const toggleShow = () => setshow(!show);
+
+    //to set show state to false
+    const setShowFalse = () => setshow(false);
 
     return (
         <section className="fixed backdrop-saturate-50 backdrop-blur bg-slate-100/40 w-full">
@@ -14,10 +18,10 @@ const Navbar = () => {
                         <h4 className="text-lg font-semibold">&#60; Ratnesh Patil /&#62;</h4>
                     </div>
                     <div className={`order-3 ${show ? 'flex' : 'hidden'} ease-in-out flex-col gap-5 text-md md:justify-between md:flex-row md:gap-0 md:order-2 md:flex`}>
-                        <a href="#skills">Skills</a>
-                        <a href="#projects">Projects</a>
-                        <a href="#experience">Experience</a>
-                        <a href="#connect">Connect</a>
+                        <a href="#skills" onClick={setShowFalse}>Skills</a>
+                        <a href="#projects" onClick={setShowFalse}>Projects</a>
+                        <a href="#experience" onClick={setShowFalse}>Experience</a>
+                        <a href="#connect" onClick={setShowFalse}>Connect</a>
                     </div>
                     <div className="justify-self-end order-2 md:order-3">
                         {/* <button><i className="fa-solid fa-moon fa-lg"></i></button> */}
