@@ -3,7 +3,7 @@ import experience from '../../assets/images/experience.png';
 //Experience is a component which contains my past experience in terms of work and png.
 const Experience = () => {
     return (
-        <section className="container mx-auto pt-20 px-5 lg:px-0 lg:py-20">
+        <section id="experience" className="container mx-auto pt-20 px-5 lg:px-0 lg:py-20">
             {/* Heading and subheading of our section */}
             <div className="prose lg:prose-xl text-center m-auto mb-5">
                 <h3 className="gradient-text3">My Experience</h3>

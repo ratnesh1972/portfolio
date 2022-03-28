@@ -5,7 +5,7 @@ import yelpcamp from '../../assets/images/yelpcamp.png';
 //Projects is a component which contains best projects info.
 const Projects = () => {
     return (
-        <section className="container mx-auto pt-20 px-5 lg:px-0 lg:py-20">
+        <section id="projects" className="container mx-auto pt-20 px-5 lg:px-0 lg:py-20">
             {/* Heading and subheading of our section */}
             <div className="prose lg:prose-xl text-center m-auto mb-5">
                 <h3 className="gradient-text2">My Projects</h3>

@@ -1,7 +1,7 @@
 //Connect is a component which contains links for social sites and github.
 const Connect = () => {
     return (
-        <section className="container mx-auto py-20 px-5 lg:px-0">
+        <section id="connect" className="container mx-auto py-20 px-5 lg:px-0">
             {/* Heading and subheading of our section */}
             <div className="prose lg:prose-xl text-center m-auto mb-5">
                 <h3 className="gradient-text">Wanna Know More?</h3>

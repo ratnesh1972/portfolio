@@ -15,7 +15,7 @@ const Header = () => {
                     <h4 className="text-slate-200">Based in Pune, India</h4>
                 </div>
                 <div className="text-center mt-8">
-                    <a href="#section5"><p className="text-slate-200 font-semibold text-sm lg:text-lg">Know More</p>
+                    <a href="#skills"><p className="text-slate-200 font-semibold text-sm lg:text-lg">Know More</p>
                         <i className="fa-solid fa-arrow-down-long text-slate-200 fa-lg animate-bounce p-5 rounded-full bg-transperent"></i>
                     </a>
                 </div>
