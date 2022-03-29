@@ -9,11 +9,11 @@ const Connect = () => {
             </div>
             {/* Divide content and img into 4 columns */}
             <div className="flex flex-col gap-10 mt-10 items-center justify-center lg:flex-row lg:mt-20">
-                <button class="rounded-lg bg-slate-900 shadow-lg shadow-slate-900/50 text-white px-10 py-3 w-48"><i class="fa-brands fa-github fa-lg"></i> Github</button>
+                <a class="rounded-lg bg-slate-900 shadow-lg shadow-slate-900/50 text-white text-center px-10 py-3 w-48" href="https://github.com/ratnesh1972" target="_blank"><i class="fa-brands fa-github fa-lg"></i> Github</a>
 
-                <button class="rounded-lg bg-blue-500 shadow-lg shadow-blue-500/50 text-white px-10 py-3 w-48"><i class="fa-brands fa-linkedin fa-lg"></i> LinkedIn</button>
+                <a class="rounded-lg bg-blue-500 shadow-lg shadow-blue-500/50 text-white text-center px-10 py-3 w-48" href="https://www.linkedin.com/in/ratneshpatil/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i> LinkedIn</a>
 
-                <button class="rounded-lg bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-10 py-3 w-48"><i class="fa-brands fa-instagram fa-lg"></i> Instagram</button>
+                <a class="rounded-lg bg-pink-500 shadow-lg shadow-pink-500/50 text-white text-center px-10 py-3 w-48" href="https://www.instagram.com/devmaniac173/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> Instagram</a>
             </div >
         </section >
     )
