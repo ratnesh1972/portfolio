@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({ darkmode, toggleMode }) => {
     //state to decide if we should show navbar or hide on smaller screens depending on menu button click.
     const [show, setshow] = useState(false);
 
@@ -11,9 +11,9 @@ const Navbar = () => {
     const setShowFalse = () => setshow(false);
 
     return (
-        <section className="fixed backdrop-saturate-50 backdrop-blur bg-slate-100/40 w-full">
+        <section className="fixed backdrop-saturate-50 backdrop-blur bg-slate-100/40 w-full dark:bg-slate-900/0">
             <div className="container rounded-lg p-4 mx-auto">
-                <div className="grid grid-cols-2 gap-5 items-center justify-between md:grid-cols-3">
+                <div className="grid grid-cols-2 gap-5 items-center justify-between md:grid-cols-3 dark:text-slate-100">
                     <div className="order-1">
                         <h4 className="text-lg font-semibold">&#60; Ratnesh Patil /&#62;</h4>
                     </div>
@@ -23,8 +23,8 @@ const Navbar = () => {
                         <a href="#experience" onClick={setShowFalse}>Experience</a>
                         <a href="#connect" onClick={setShowFalse}>Connect</a>
                     </div>
-                    <div className="justify-self-end order-2 md:order-3">
-                        {/* <button><i className="fa-solid fa-moon fa-lg"></i></button> */}
+                    <div className="justify-self-end flex flex-row gap-5 order-2 md:order-3 md:flex-none">
+                        <button onClick={toggleMode}><i className={`fa-solid ${darkmode ? 'fa-sun' : 'fa-moon'} fa-lg`}></i></button>
                         <button className="block md:hidden" onClick={toggleShow}><i class="fa-solid fa-bars"></i></button>
                     </div>
                 </div >
