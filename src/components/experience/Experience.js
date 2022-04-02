@@ -9,7 +9,7 @@ const Experience = () => {
                 {/* Heading and subheading of our section */}
                 <div className="prose lg:prose-xl text-center m-auto mb-5 dark:prose-invert">
                     <h3 className="gradient-text3">My Experience</h3>
-                    <h1>The most creative intuitive workmate.</h1>
+                    <h1>Experience is what matters the most.</h1>
                 </div>
                 {/* Divide content and img into two columns */}
                 <div className="grid grid-cols-1 gap-5 mt-10 lg:grid-cols-2 lg:mt-20">
@@ -31,7 +31,7 @@ const Experience = () => {
                                     <div>
                                         <h4 className="mt-0">Application Development Analyst, Accenture</h4>
                                         <p className="text-sm">Dec 2021 - Jun 2022</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis id ipsa eum neque minus dolorem numquam eius maxime doloribus vitae!</p>
+                                        <p>Key responsibilites involved creating custom UI components for Next.js based streaming application. Also used Redux for state management and MUI as styling library.</p>
                                     </div>
                                 </div>
                             </div>
@@ -45,8 +45,8 @@ const Experience = () => {
                                     {/* Content */}
                                     <div>
                                         <h4 className="mt-0">Application Development Associate, Accenture</h4>
-                                        <p className="text-sm">Dec 2021 - Jun 2022</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis id ipsa eum neque minus dolorem numquam eius maxime doloribus vitae!</p>
+                                        <p className="text-sm">Oct 2019 - Dec 2021</p>
+                                        <p>As a Production Support Engineer performed analysis on session logs data using Splunk, EFK and Oracle SQL Developer tools. Performed health checks on application servers.</p>
                                     </div>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const Experience = () => {
                                     <div>
                                         <h4 className="mt-0">Web Developer, vInnovate Technologies</h4>
                                         <p className="text-sm">Jan 2019 - Oct 2019</p>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis id ipsa eum neque minus dolorem numquam eius maxime doloribus vitae!</p>
+                                        <p>Designed, developed, and managed full-stack websites for clients from domains such as education, hospitality, health & food. Used PHP, HTML, CSS, Bootstrap, JavaScript and MySQL.</p>
                                     </div>
                                 </div>
                             </div>
