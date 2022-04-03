@@ -1,0 +1,33 @@
+{
+    "subtitle": "My Experience",
+    "title": "Experience is what matters the most.",
+    "experiences": [
+        {
+            "title": "Application Development Analyst",
+            "icon": "fa-brands fa-react fa-lg",
+            "icon_color": "text-blue-600",
+            "company": "Accenture",
+            "start": "Dec 2021",
+            "end": "Jun 2022",
+            "description": "Key responsibilites involved creating custom UI components for Next.js based streaming application. Also used Redux for state management and MUI as styling library."
+        },
+        {
+            "title": "Application Development Associate",
+            "icon": "fa-solid fa-laptop-code fa-lg",
+            "icon_color": "text-pink-500",
+            "company": "Accenture",
+            "start": "Oct 2019",
+            "end": "Dec 2021",
+            "description": "As a Production Support Engineer performed analysis on session logs data using Splunk, EFK and Oracle SQL Developer tools. Performed health checks on application servers."
+        },
+        {
+            "title": "Web Developer",
+            "icon": "fa-brands fa-js fa-xl",
+            "icon_color": "text-cyan-500",
+            "company": "vInnovate Technologies",
+            "start": "Jan 2019",
+            "end": "Oct 2019",
+            "description": "Designed, developed, and managed full-stack websites for clients from domains such as education, hospitality, health & food. Used PHP, HTML, CSS, Bootstrap, JavaScript and MySQL."
+        }
+    ]
+}

@@ -25,7 +25,7 @@ const Navbar = ({ darkmode, toggleMode }) => {
                     </div>
                     <div className="justify-self-end flex flex-row gap-5 order-2 md:order-3 md:flex-none">
                         <button onClick={toggleMode}><i className={`fa-solid ${darkmode ? 'fa-sun' : 'fa-moon'} fa-lg`}></i></button>
-                        <button className="block md:hidden" onClick={toggleShow}><i class="fa-solid fa-bars"></i></button>
+                        <button className="block md:hidden" onClick={toggleShow}><i className="fa-solid fa-bars"></i></button>
                     </div>
                 </div >
             </div>
