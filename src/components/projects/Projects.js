@@ -25,7 +25,7 @@ const Projects = () => {
                                 <h3>YelpCamp</h3>
                                 <p>Web application to list camping sites info such as name, location, images. Also you can review and comment on camping sites added by others.  </p>
                                 <p className="text-xs">Tech Stack - <span className="font-semibold">HTML, Bootstrap, EJS, Node, Express, MongoDB</span></p>
-                                <a href="https://protected-tor-57361.herokuapp.com/" rel="noreferrer" target="_blank"><button class="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
+                                <a href="https://protected-tor-57361.herokuapp.com/" rel="noreferrer" target="_blank"><button className="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                                 <h3>Gym Dashboard</h3>
                                 <p>Gym admin portal to manage trainers info, members info, and members billing and transaction details along with payment status.</p>
                                 <p className="text-xs">Tech Stack - <span className="font-semibold">HTML, CSS, React, MUI, Node, Express, MongoDB</span></p>
-                                <a href="https://gymdashbaord.netlify.app" rel="noreferrer" target="_blank"><button class="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
+                                <a href="https://gymdashbaord.netlify.app" rel="noreferrer" target="_blank"><button className="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                                 <h3>Github Finder</h3>
                                 <p>Weekend project using Githubs APIs. Search github profiles using github username and view details such as bio, top repos, following and followers.</p>
                                 <p className="text-xs">Tech Stack - <span className="font-semibold">HTML, CSS, JS, React, Github APIs</span></p>
-                                <a href="https://githubfinderbyratnesh.netlify.app/" rel="noreferrer" target="_blank"><button class="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
+                                <a href="https://githubfinderbyratnesh.netlify.app/" rel="noreferrer" target="_blank"><button className="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Projects = () => {
                                 <h3>The Goldys Fitness</h3>
                                 <p>Fully responsive static website developed for a gym based in Jalgaon. Designed and developed from scratch without any frameworks.</p>
                                 <p className="text-xs">Tech Stack - <span className="font-semibold">HTML, CSS, JS</span></p>
-                                <a href="https://www.thegoldysfitness.in/" rel="noreferrer" target="_blank"><button class="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
+                                <a href="https://www.thegoldysfitness.in/" rel="noreferrer" target="_blank"><button className="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Projects = () => {
                                 <h3>Kirans Creations</h3>
                                 <p>Fully reponsive portfolio website developed for a design studio based in Nashik. Comes with a image gallery to easily showcase past clients work to user.</p>
                                 <p className="text-xs">Tech Stack - <span className="font-semibold">HTML, CSS, JS</span></p>
-                                <a href="https://kiranscreations.netlify.app/" rel="noreferrer" target="_blank"><button class="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
+                                <a href="https://kiranscreations.netlify.app/" rel="noreferrer" target="_blank"><button className="rounded-full bg-pink-500 shadow-lg shadow-pink-500/50 text-white px-5 py-1">View Project</button></a>
                             </div>
                         </div>
                     </div>
