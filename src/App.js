@@ -12,7 +12,7 @@ import Navbar from './components/navbar/Navbar';
 function App() {
 
   //define state for current mode. Initiate to false. dark mode false means default light mode.
-  const [darkmode, setmode] = useState(false);
+  const [darkmode, setmode] = useState(true);
 
   //Toggle dark mode based on current value.
   const toggleDarkMode = () => setmode(!darkmode)

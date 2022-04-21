@@ -17,19 +17,19 @@ const Skills = () => {
                     <div className="prose items-center dark:prose-invert">
                         <div className="grid grid-cols-1 gap-5 mt-5 md:grid-cols-2">
                             <div className="bg-gray-100 px-4 rounded-2xl dark:bg-slate-800">
-                                <h4><span className="text-blue-600"><i class="fa-brands fa-react fa-lg" ></i></span> Frontend Development</h4>
+                                <h4><span className="text-blue-600"><i className="fa-brands fa-react fa-lg" ></i></span> Frontend Development</h4>
                                 <p>A great knowledge of HTML / CSS, Javascript, React.js and UI frameworks like Tailwind, MUI, Boostrap. I make responsive applications with interactive UI designs.</p>
                             </div>
                             <div className="bg-gray-100 px-4 rounded-2xl dark:bg-slate-800">
-                                <h4><span className="text-green-600"><i class="fa-brands fa-node fa-lg"></i></span> Backend Development</h4>
-                                <p>Rest API development using Node.js and Express. </p>
+                                <h4><span className="text-green-600"><i className="fa-brands fa-node fa-lg"></i></span> Backend Development</h4>
+                                <p>Experience in server side technologies such as Node.js and Express.js. Developed REST API's for more than 4 fullstack projects with Node.js and Express.js </p>
                             </div>
                             <div className="bg-gray-100 px-4 rounded-2xl dark:bg-slate-800">
-                                <h4><span className="text-rose-600"><i class="fa-solid fa-database fa-lg"></i></span> Database</h4>
-                                <p></p>
+                                <h4><span className="text-rose-600"><i className="fa-solid fa-database fa-lg"></i></span> Database</h4>
+                                <p>A good understanding of relational database like MySQL. Hands on experience in No-SQL database such as MongoDB and object modeling using Mongoose.</p>
                             </div>
                             <div className="bg-gray-100 px-4 rounded-2xl dark:bg-slate-800">
-                                <h4><span className="text-purple-600"><i class="fa-solid fa-pen-ruler fa-lg"></i></span> UI Design</h4>
+                                <h4><span className="text-purple-600"><i className="fa-solid fa-pen-ruler fa-lg"></i></span> UI Design</h4>
                                 <p>Knowledge of wireframing using Adobe XD and Figma. Keen eye for UI design aspects such as color theory, typography and visual communication. </p>
                             </div>
                         </div>
