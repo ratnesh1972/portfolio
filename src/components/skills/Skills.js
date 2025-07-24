@@ -22,11 +22,11 @@ const Skills = () => {
                             </div>
                             <div className="bg-gray-100 px-4 rounded-2xl dark:bg-slate-800">
                                 <h4><span className="text-green-600"><i className="fa-brands fa-node fa-lg"></i></span> Backend Development</h4>
-                                <p>Experience in server side technologies such as Node.js and Express.js. Developed REST API's for more than 4 fullstack projects with Node.js and Express.js </p>
+                                <p>Experienced in server-side development using Python and Node.js, with hands-on work in frameworks like Django and Express.js.</p>
                             </div>
                             <div className="bg-gray-100 px-4 rounded-2xl dark:bg-slate-800">
                                 <h4><span className="text-rose-600"><i className="fa-solid fa-database fa-lg"></i></span> Database</h4>
-                                <p>A good understanding of relational database like MySQL. Hands on experience in No-SQL database such as MongoDB and object modeling using Mongoose.</p>
+                                <p>Solid understanding of both relational and non-relational databases, with hands-on experience using MySQL. Proficient in writing SQL queries, and working with ORMs like Django ORM to streamline database operations.</p>
                             </div>
                             <div className="bg-gray-100 px-4 rounded-2xl dark:bg-slate-800">
                                 <h4><span className="text-purple-600"><i className="fa-solid fa-pen-ruler fa-lg"></i></span> UI Design</h4>
