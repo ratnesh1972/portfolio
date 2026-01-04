@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import TitleBox from '../custom/TitleBox';
 import ExperienceBox from '../custom/ExperienceBox';
 

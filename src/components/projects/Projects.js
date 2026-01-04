@@ -1,7 +1,5 @@
 import backpackertours from '../../assets/images/backpackertours.png'
 import kiranscreation from '../../assets/images/kiranscreation.png';
-import tgfdashboard from '../../assets/images/tgfdashboard.png';
-import goldysfitness from '../../assets/images/goldysfitness.png';
 import githubfinder from '../../assets/images/githubfinder.png';
 
 import SingleProjectCard from './SingleProjectCard';
@@ -22,14 +20,14 @@ const Projects_Data = [
         "skills": "HTML, CSS, JS",
         "link": "https://kiranscreations.netlify.app/"
     },
-    {
-        "image": tgfdashboard,
-        "alt": "TGF Dashboard Page",
-        "title": "Gym Dashboard",
-        "description": "Gym admin portal to manage trainers info, members info, and members billing and transaction details along with payment status.",
-        "skills": "HTML, CSS, React, MUI, Node, Express, MongoDB",
-        "link": "https://gymdashbaord.netlify.app"
-    },
+    // {
+    //     "image": tgfdashboard,
+    //     "alt": "TGF Dashboard Page",
+    //     "title": "Gym Dashboard",
+    //     "description": "Gym admin portal to manage trainers info, members info, and members billing and transaction details along with payment status.",
+    //     "skills": "HTML, CSS, React, MUI, Node, Express, MongoDB",
+    //     "link": "https://gymdashbaord.netlify.app"
+    // },
     {
         "image": githubfinder,
         "alt": "Github Finder",
@@ -38,14 +36,14 @@ const Projects_Data = [
         "skills": "HTML, CSS, JS, React, Github APIs",
         "link": "https://githubfinderbyratnesh.netlify.app/"
     },
-    {
-        "image": goldysfitness,
-        "alt": "Goldys Website Page",
-        "title": "The Goldys Fitness",
-        "description": "Fully responsive static website developed for a gym based in Jalgaon. Designed and developed from scratch without any frameworks.",
-        "skills": "HTML, CSS, JS",
-        "link": "https://www.thegoldysfitness.in/"
-    }
+    // {
+    //     "image": goldysfitness,
+    //     "alt": "Goldys Website Page",
+    //     "title": "The Goldys Fitness",
+    //     "description": "Fully responsive static website developed for a gym based in Jalgaon. Designed and developed from scratch without any frameworks.",
+    //     "skills": "HTML, CSS, JS",
+    //     "link": "https://www.thegoldysfitness.in/"
+    // }
 ]
 //Projects is a component which contains best projects info.
 const Projects = () => {

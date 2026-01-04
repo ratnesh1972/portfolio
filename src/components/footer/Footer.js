@@ -6,7 +6,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-5 items-center lg:flex-row lg:justify-between dark:text-slate-300">
                     <h4 className="text-lg font-semibold">&#60; Ratnesh Patil /&#62;</h4>
                     <div className="flex flex-col gap-5 lg:flex-row items-center">
-                        <span className="text-sm"><i className="fa-solid fa-envelope-open-text"></i> ratneshdesigns@gmail.com</span>
+                        <span className="text-sm"><i className="fa-solid fa-envelope-open-text"></i> ratneshpatil117@gmail.com</span>
                         <span className="text-sm"><i className="fa-solid fa-mobile"></i> +91 775-890-5725</span>
                     </div>
                 </div >
